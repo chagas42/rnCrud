@@ -41,10 +41,10 @@ Aplicativo desenvolvido com o intuito de aplicar de maneira prática meu conheci
 ```bash
     
     #Clonar o repositório
-    $ git clone https://github.com/chagas42/Plant_Manager_NLW5
+    $ git clone https://github.com/chagas42/rnCrud
 
     #Entrar no diretório
-    $ cd pro_Franchising
+    $ cd rnCrud
 
     #Instalar as dependências 
     $ yarn  
