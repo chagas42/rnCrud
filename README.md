@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="RnCrud" title="rnCrud" src=".github/logo.png" />
+  <img alt="RnCrud" title="rnCrud" src=".github/logo.png"  height="100"/>
 </h1>
 
 <p align="center">
