@@ -12,11 +12,7 @@
 <br>
 
 <p align="center">
-  <img alt="Device" src=".github/1.png" width="300">
-  <img alt="Device" src=".github/2.png" width="300">
-  <img alt="Device" src=".github/3.png" width="300">
-  <img alt="Device" src=".github/4.png" width="300">
-  <img alt="Device" src=".github/5.png" width="300">
+  <img alt="Device" src=".github/1.gif" width="300">
 </p>
 
 

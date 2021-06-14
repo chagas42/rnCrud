@@ -85,7 +85,7 @@ const AuthRoutes = () => {
                             />
                         ))
                     }}
-                    listeners={({navigation}) => ({
+                    listeners={() => ({
                         tabPress: (e) => {
                             e.preventDefault();
                             handleLogout(); 
