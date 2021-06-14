@@ -1,11 +1,9 @@
 <h1 align="center">
-  <img alt="RnCrud" title="rnCrud" src=".github/logo.png" />
+  <img alt="RnCrud" title="rnCrud" src=".github/logo.png"  height="100"/>
 </h1>
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=32B768&labelColor=000000">
-
- <img src="https://img.shields.io/static/v1?label=NLW&message=05&color=32B768&labelColor=000000" alt="NLW 05" />
  <img src="https://img.shields.io/badge/types-TypeScript-blue" alt="NLW 05" />
 </p>
 
@@ -39,10 +37,10 @@ Aplicativo desenvolvido com o intuito de aplicar de maneira prática meu conheci
 ```bash
     
     #Clonar o repositório
-    $ git clone https://github.com/chagas42/Plant_Manager_NLW5
+    $ git clone https://github.com/chagas42/rnCrud
 
     #Entrar no diretório
-    $ cd pro_Franchising
+    $ cd rnCrud
 
     #Instalar as dependências 
     $ yarn  
