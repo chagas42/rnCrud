@@ -11,8 +11,8 @@ export async function getList(page:number, size:number){
     
     const token = await getData('token');
 
-
-    const response = await api.get(`/product/list?page=${page}&size=${size}`, {
+    console.warn(page, size); 
+    const response = await api.get(`/product/list?page=${page}&size=${1}`, {
         headers: {
             authorization:token
         }

@@ -29,7 +29,7 @@ export const Home = ({...props}) => {
     const [ loading, setLoading ] = useState<Boolean>(true); 
     const [ loadingMore, setLoadingMore ] = useState<Boolean>(true);
     const [ page, setPage ] = useState(0); 
-    const [ size, setSize ] = useState(5); 
+    const [ size, setSize ] = useState(1); 
     const [ updatePrice, setUpdatePrice] = useState<Boolean>(true); 
 
     //3 maneiras de acionar a minhas lista : ao iniciar a page, ao escrollar a pagina, e ao criar um novo item; 
@@ -37,7 +37,7 @@ export const Home = ({...props}) => {
     async function getItems( qtd?:number){
 
 
-       const data  = qtd ? await getList(page, qtd) : await getList(page, size + 2);  
+       const data  = qtd ? await getList(page, qtd) : await getList(page, size + 1);  
 
        if(!data)
             return setLoading(true)
@@ -50,14 +50,14 @@ export const Home = ({...props}) => {
         
         setLoading(false);
         setLoadingMore(false);
-        setPage(0);
+        setPage(oldValue => oldValue +1);
         return data;
    }
    //2
     function handleFetchMore(distance: number, data:number ){
         if(distance > 0){
             setLoadingMore(true); 
-            setPage(oldValue => oldValue +1)
+            // setPage(oldValue => oldValue +1)
             getItems(); 
         } else {
             return; 
